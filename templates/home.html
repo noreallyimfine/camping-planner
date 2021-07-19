@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <h1>Trip Mapper</h1>
+</head>
+<body>
+    <form method="POST" action="/">
+        {{ form.hidden_tag() }}
+        {{ form.state.label }} {{form.state}}
+        <input type="submit" value="Go">
+    </form>
+</body>
+</html>

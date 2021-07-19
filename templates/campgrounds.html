@@ -1,0 +1,15 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <h1>Trip Mapper</h1>
+</head>
+<body>
+    <!-- <p> {{ campgrounds[0].keys() }} </p> -->
+    <ul>
+        {% for campground in campgrounds %}
+        <li>{{ campground['facilityName'] }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
